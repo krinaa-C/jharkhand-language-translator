@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Jharkhand Language Translator</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌐 Jharkhand Language Translator</h1>
+
+        <p>
+            Hindi → Jharkhand Languages
+        </p>
+    </header>
+
+
+    <main>
+
+        <!-- Translation settings -->
+
+        <section class="settings">
+
+            <label>Source Language</label>
+
+            <select id="sourceLanguage">
+
+                <option value="hi">
+                    Hindi
+                </option>
+
+            </select>
+
+
+            <label>Target Language</label>
+
+            <select id="targetLanguage">
+
+                <option value="sat">
+                    Santali
+                </option>
+
+                <option value="mundari">
+                    Mundari
+                </option>
+
+                <option value="ho">
+                    Ho
+                </option>
+
+                <option value="kurukh">
+                    Kurukh
+                </option>
+
+            </select>
+
+        </section>
+
+
+        <!-- Input area -->
+
+        <section class="translator">
+
+            <div class="box">
+
+                <h2>Hindi</h2>
+
+                <textarea
+                    id="inputText"
+                    placeholder="Hindi mein type karein...">
+                </textarea>
+
+
+                <div class="buttons">
+
+                    <button id="micButton">
+                        🎤 Speak
+                    </button>
+
+                    <button id="translateButton">
+                        Translate
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Output -->
+
+            <div class="box">
+
+                <h2>Translation</h2>
+
+                <div id="outputText"
+                     class="output">
+
+                    Translation will appear here...
+
+                </div>
+
+                <button id="speakButton">
+                    🔊 Speak Translation
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Status -->
+
+        <div id="status" class="status">
+
+            Ready
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            AI-powered language learning project
+        </p>
+
+    </footer>
+
+
+    <script src="script1.js"></script>
+
+</body>
+
+</html>
